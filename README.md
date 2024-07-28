@@ -1,2 +1,1 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+The Temperature Converter is a command-line application. The user will input a temperature value, and then select whether they want to convert it to Fahrenheit or Celsius. The program will then perform the appropriate conversion and output the result.
