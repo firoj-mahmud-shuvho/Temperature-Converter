@@ -1,7 +1,8 @@
+// ignore: file_names
 import 'dart:io';
 
 void main() {
-  stdout.write('Enter temperature: ');
+  stdout.write('Enter a Temperature: ');
   var input = stdin.readLineSync();
 
   stdout.write('Convert to (F)ahrenheit or (C)elsius? ');
@@ -27,5 +28,5 @@ void main() {
     return;
   }
 
-  print('$temperature° ${unit == 'F' ? 'C' : 'F'} is $result° $unit');
+  print('$temperature° ${unit == 'F' ? 'C' : 'F'} is Equal to $result° $unit');
 }
